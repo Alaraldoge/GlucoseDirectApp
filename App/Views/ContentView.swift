@@ -54,10 +54,15 @@ struct ContentView: View {
             .onAppear {
                 DirectLog.info("onAppear()")
 
-                let apparence = UITabBarAppearance()
-                apparence.configureWithOpaqueBackground()
+                let appearance = UITabBarAppearance()
+                appearance.configureWithOpaqueBackground()
+                appearance.backgroundColor = .black
 
-                UITabBar.appearance().scrollEdgeAppearance = apparence
+                UITabBar.appearance().scrollEdgeAppearance = appearance
+                UITabBar.appearance().standardAppearance = appearance
+                UITabBar.appearance().unselectedItemTintColor = UIColor(
+                    red: 85.0 / 255.0, green: 85.0 / 255.0, blue: 85.0 / 255.0, alpha: 1.0
+                )
             }
         }
     }

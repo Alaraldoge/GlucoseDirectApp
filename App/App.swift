@@ -37,6 +37,7 @@ struct DOSBTSApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(self.store)
+                .preferredColorScheme(.dark)
         }
     }
 
