@@ -1,6 +1,6 @@
 //
 //  BloodGlucoseList.swift
-//  GlucoseDirectApp
+//  DOSBTSApp
 //
 
 import SwiftUI

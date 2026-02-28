@@ -1,6 +1,6 @@
 //
 //  AlarmSettingsView.swift
-//  GlucoseDirect
+//  DOSBTS
 //
 
 import SwiftUI

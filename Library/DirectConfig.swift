@@ -1,6 +1,6 @@
 //
 //  AppConfig.swift
-//  GlucoseDirect
+//  DOSBTS
 //
 
 import Foundation

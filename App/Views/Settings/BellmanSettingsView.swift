@@ -1,6 +1,6 @@
 //
 //  BellmanSettingsView.swift
-//  GlucoseDirect
+//  DOSBTS
 //
 
 import SwiftUI

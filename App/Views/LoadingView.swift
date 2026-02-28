@@ -1,6 +1,6 @@
 //
 //  LoadingIndicator.swift
-//  GlucoseDirectApp
+//  DOSBTSApp
 //
 
 import SwiftUI

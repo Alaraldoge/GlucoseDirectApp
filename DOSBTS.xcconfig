@@ -1,6 +1,6 @@
 //
 //  App.xcconfig
-//  GlucoseDirect
+//  DOSBTS
 //
 
 DEVELOPMENT_TEAM = ##TEAM_ID##
@@ -8,4 +8,4 @@ PRODUCT_BUNDLE_IDENTIFIER = com.cinimody.eatthisidie
 APP_GROUP_ID = group.com.cinimody.eatthisidie
 APP_VERSION = 1.0.0
 
-#include? "GlucoseDirectOverride.xcconfig"
+#include? "DOSBTSOverride.xcconfig"

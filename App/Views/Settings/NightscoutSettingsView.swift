@@ -1,6 +1,6 @@
 //
 //  NightscoutSettingsView.swift
-//  GlucoseDirect
+//  DOSBTS
 //
 
 import SwiftUI

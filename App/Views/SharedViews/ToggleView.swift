@@ -1,6 +1,6 @@
 //
 //  ToggleView.swift
-//  GlucoseDirect
+//  DOSBTS
 //
 
 import SwiftUI

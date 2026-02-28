@@ -1,6 +1,6 @@
 //
 //  CalendarExportSettings.swift
-//  GlucoseDirect
+//  DOSBTS
 //
 
 import EventKit

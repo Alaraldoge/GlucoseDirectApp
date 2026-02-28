@@ -1,6 +1,6 @@
 //
 //  Statistics.swift
-//  GlucoseDirectApp
+//  DOSBTSApp
 //
 //  Created by Reimar Metzen on 07.01.23.
 //

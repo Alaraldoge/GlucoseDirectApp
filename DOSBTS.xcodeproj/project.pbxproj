@@ -40,7 +40,7 @@
 		E24474412859CA9600F8891C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BFC0226B1407E00F8FBEF /* WidgetKit.framework */; };
 		E24474422859CA9600F8891C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BFC0426B1407E00F8FBEF /* SwiftUI.framework */; };
 		E24474452859CA9600F8891C /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24474442859CA9600F8891C /* Widgets.swift */; };
-		E244744B2859CA9700F8891C /* GlucoseDirectWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E24474402859CA9600F8891C /* GlucoseDirectWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E244744B2859CA9700F8891C /* DOSBTSWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E24474402859CA9600F8891C /* DOSBTSWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E245550D28DE4B640092C452 /* LibreLinkUpConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245550C28DE4B640092C452 /* LibreLinkUpConnection.swift */; };
 		E24B531E26B863910091417F /* NightscoutSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B531D26B863910091417F /* NightscoutSettingsView.swift */; };
 		E24B532126B863C00091417F /* GlucoseSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B532026B863C00091417F /* GlucoseSettingsView.swift */; };
@@ -224,7 +224,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				E244744B2859CA9700F8891C /* GlucoseDirectWidget.appex in Embed Foundation Extensions */,
+				E244744B2859CA9700F8891C /* DOSBTSWidget.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +252,7 @@
 		10DD1302296A15CA00C900EA /* AddBloodGlucoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBloodGlucoseView.swift; sourceTree = "<group>"; };
 		1938BB6F2752F8D10047059C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1938BB702752F8D20047059C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6587CE4429620FB0008518F4 /* GlucoseDirectOverride.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GlucoseDirectOverride.xcconfig; sourceTree = "<group>"; };
+		6587CE4429620FB0008518F4 /* DOSBTSOverride.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DOSBTSOverride.xcconfig; sourceTree = "<group>"; };
 		6587CE4529621507008518F4 /* AddInsulinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInsulinView.swift; sourceTree = "<group>"; };
 		6587CE4729625E94008518F4 /* InsulinDeliveryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsulinDeliveryListView.swift; sourceTree = "<group>"; };
 		6587CE4929626070008518F4 /* InsulinDelivery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsulinDelivery.swift; sourceTree = "<group>"; };
@@ -261,7 +261,7 @@
 		E2016FD7285BA7EE00079195 /* GlucoseWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseWidget.swift; sourceTree = "<group>"; };
 		E2016FDB285BA82600079195 /* TransmitterWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransmitterWidget.swift; sourceTree = "<group>"; };
 		E201769027AAB96000E6A756 /* AppleHealthExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleHealthExport.swift; sourceTree = "<group>"; };
-		E20B853A266F4A9800AA4224 /* GlucoseDirectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlucoseDirectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20B853A266F4A9800AA4224 /* DOSBTSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOSBTSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20B853D266F4A9800AA4224 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		E20B853F266F4A9800AA4224 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E20B8541266F4A9900AA4224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -276,11 +276,11 @@
 		E23698E3288198B400FCF69F /* Migration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migration.swift; sourceTree = "<group>"; };
 		E24077B226B881C2001767C0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E24077B726B881CB001767C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E24474402859CA9600F8891C /* GlucoseDirectWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GlucoseDirectWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24474402859CA9600F8891C /* DOSBTSWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DOSBTSWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24474442859CA9600F8891C /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
 		E24474482859CA9700F8891C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E245550C28DE4B640092C452 /* LibreLinkUpConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibreLinkUpConnection.swift; sourceTree = "<group>"; };
-		E247D8E426B7D70A00BDAF89 /* GlucoseDirect.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GlucoseDirect.xcconfig; sourceTree = "<group>"; };
+		E247D8E426B7D70A00BDAF89 /* DOSBTS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DOSBTS.xcconfig; sourceTree = "<group>"; };
 		E24B531D26B863910091417F /* NightscoutSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutSettingsView.swift; sourceTree = "<group>"; };
 		E24B532026B863C00091417F /* GlucoseSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseSettingsView.swift; sourceTree = "<group>"; };
 		E24B532226B863E20091417F /* AlarmSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSettingsView.swift; sourceTree = "<group>"; };
@@ -479,8 +479,8 @@
 		E20B8531266F4A9800AA4224 = {
 			isa = PBXGroup;
 			children = (
-				6587CE4429620FB0008518F4 /* GlucoseDirectOverride.xcconfig */,
-				E247D8E426B7D70A00BDAF89 /* GlucoseDirect.xcconfig */,
+				6587CE4429620FB0008518F4 /* DOSBTSOverride.xcconfig */,
+				E247D8E426B7D70A00BDAF89 /* DOSBTS.xcconfig */,
 				E20B853C266F4A9800AA4224 /* App */,
 				E24474432859CA9600F8891C /* Widgets */,
 				E2218B87284F9E7300DB5A55 /* Library */,
@@ -492,8 +492,8 @@
 		E20B853B266F4A9800AA4224 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E20B853A266F4A9800AA4224 /* GlucoseDirectApp.app */,
-				E24474402859CA9600F8891C /* GlucoseDirectWidget.appex */,
+				E20B853A266F4A9800AA4224 /* DOSBTSApp.app */,
+				E24474402859CA9600F8891C /* DOSBTSWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -912,9 +912,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E20B8539266F4A9800AA4224 /* GlucoseDirectApp */ = {
+		E20B8539266F4A9800AA4224 /* DOSBTSApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E20B8549266F4A9900AA4224 /* Build configuration list for PBXNativeTarget "GlucoseDirectApp" */;
+			buildConfigurationList = E20B8549266F4A9900AA4224 /* Build configuration list for PBXNativeTarget "DOSBTSApp" */;
 			buildPhases = (
 				E20B8536266F4A9800AA4224 /* Sources */,
 				E20B8537266F4A9800AA4224 /* Frameworks */,
@@ -926,17 +926,17 @@
 			dependencies = (
 				E244744A2859CA9700F8891C /* PBXTargetDependency */,
 			);
-			name = GlucoseDirectApp;
+			name = DOSBTSApp;
 			packageProductDependencies = (
 				101B53842A3BC0210088B4BD /* GRDB */,
 			);
-			productName = GlucoseDirect;
-			productReference = E20B853A266F4A9800AA4224 /* GlucoseDirectApp.app */;
+			productName = DOSBTS;
+			productReference = E20B853A266F4A9800AA4224 /* DOSBTSApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E244743F2859CA9600F8891C /* GlucoseDirectWidget */ = {
+		E244743F2859CA9600F8891C /* DOSBTSWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E244744E2859CA9700F8891C /* Build configuration list for PBXNativeTarget "GlucoseDirectWidget" */;
+			buildConfigurationList = E244744E2859CA9700F8891C /* Build configuration list for PBXNativeTarget "DOSBTSWidget" */;
 			buildPhases = (
 				E244743C2859CA9600F8891C /* Sources */,
 				E244743D2859CA9600F8891C /* Frameworks */,
@@ -946,9 +946,9 @@
 			);
 			dependencies = (
 			);
-			name = GlucoseDirectWidget;
+			name = DOSBTSWidget;
 			productName = WidgetsExtension;
-			productReference = E24474402859CA9600F8891C /* GlucoseDirectWidget.appex */;
+			productReference = E24474402859CA9600F8891C /* DOSBTSWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -969,7 +969,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E20B8535266F4A9800AA4224 /* Build configuration list for PBXProject "GlucoseDirect" */;
+			buildConfigurationList = E20B8535266F4A9800AA4224 /* Build configuration list for PBXProject "DOSBTS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1002,8 +1002,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E20B8539266F4A9800AA4224 /* GlucoseDirectApp */,
-				E244743F2859CA9600F8891C /* GlucoseDirectWidget */,
+				E20B8539266F4A9800AA4224 /* DOSBTSApp */,
+				E244743F2859CA9600F8891C /* DOSBTSWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -1236,7 +1236,7 @@
 /* Begin PBXTargetDependency section */
 		E244744A2859CA9700F8891C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E244743F2859CA9600F8891C /* GlucoseDirectWidget */;
+			target = E244743F2859CA9600F8891C /* DOSBTSWidget */;
 			targetProxy = E24474492859CA9700F8891C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1444,7 +1444,7 @@
 		};
 		E20B854A266F4A9900AA4224 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E247D8E426B7D70A00BDAF89 /* GlucoseDirect.xcconfig */;
+			baseConfigurationReference = E247D8E426B7D70A00BDAF89 /* DOSBTS.xcconfig */;
 			buildSettings = {
 				APP_GROUP_ID = "$(APP_GROUP_ID)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1475,7 +1475,7 @@
 		};
 		E20B854B266F4A9900AA4224 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E247D8E426B7D70A00BDAF89 /* GlucoseDirect.xcconfig */;
+			baseConfigurationReference = E247D8E426B7D70A00BDAF89 /* DOSBTS.xcconfig */;
 			buildSettings = {
 				APP_GROUP_ID = "$(APP_GROUP_ID)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1506,7 +1506,7 @@
 		};
 		E244744C2859CA9700F8891C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E247D8E426B7D70A00BDAF89 /* GlucoseDirect.xcconfig */;
+			baseConfigurationReference = E247D8E426B7D70A00BDAF89 /* DOSBTS.xcconfig */;
 			buildSettings = {
 				APP_GROUP_ID = "$(APP_GROUP_ID)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1539,7 +1539,7 @@
 		};
 		E244744D2859CA9700F8891C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E247D8E426B7D70A00BDAF89 /* GlucoseDirect.xcconfig */;
+			baseConfigurationReference = E247D8E426B7D70A00BDAF89 /* DOSBTS.xcconfig */;
 			buildSettings = {
 				APP_GROUP_ID = "$(APP_GROUP_ID)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1573,7 +1573,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E20B8535266F4A9800AA4224 /* Build configuration list for PBXProject "GlucoseDirect" */ = {
+		E20B8535266F4A9800AA4224 /* Build configuration list for PBXProject "DOSBTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E20B8547266F4A9900AA4224 /* Debug */,
@@ -1582,7 +1582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E20B8549266F4A9900AA4224 /* Build configuration list for PBXNativeTarget "GlucoseDirectApp" */ = {
+		E20B8549266F4A9900AA4224 /* Build configuration list for PBXNativeTarget "DOSBTSApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E20B854A266F4A9900AA4224 /* Debug */,
@@ -1591,7 +1591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E244744E2859CA9700F8891C /* Build configuration list for PBXNativeTarget "GlucoseDirectWidget" */ = {
+		E244744E2859CA9700F8891C /* Build configuration list for PBXNativeTarget "DOSBTSWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E244744C2859CA9700F8891C /* Debug */,

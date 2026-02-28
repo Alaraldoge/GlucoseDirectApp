@@ -1,6 +1,6 @@
 //
 //  ConnectionView.swift
-//  GlucoseDirect
+//  DOSBTS
 //
 
 import SwiftUI

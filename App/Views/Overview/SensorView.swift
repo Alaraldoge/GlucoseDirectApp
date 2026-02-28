@@ -1,6 +1,6 @@
 //
 //  DetailsView.swift
-//  GlucoseDirect
+//  DOSBTS
 //
 
 import SwiftUI
