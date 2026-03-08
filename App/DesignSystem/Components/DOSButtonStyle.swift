@@ -29,7 +29,7 @@ struct DOSButtonStyle: ButtonStyle {
             )
             .overlay(Rectangle().stroke(AmberTheme.amber, lineWidth: 1))
             .scaleEffect(configuration.isPressed ? 0.97 : 1.0)
-            .animation(.spring(duration: 0.2, bounce: 0.1), value: configuration.isPressed)
+            .animation(.spring(response: 0.2, dampingFraction: 0.9), value: configuration.isPressed)
     }
 }
 
