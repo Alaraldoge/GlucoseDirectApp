@@ -82,7 +82,7 @@
 		E2715804287ABF2E00B611D9 /* SensorGlucoseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2715803287ABF2E00B611D9 /* SensorGlucoseListView.swift */; };
 		E2715806287ABF4100B611D9 /* BloodGlucoseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2715805287ABF4100B611D9 /* BloodGlucoseListView.swift */; };
 		E2715808287ABF4B00B611D9 /* SensorErrorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2715807287ABF4B00B611D9 /* SensorErrorListView.swift */; };
-		E27325A7275543D600D3C41D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27325A6275543D600D3C41D /* Color.swift */; };
+
 		E278848327B4646E00E07DDC /* Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E278848227B4646E00E07DDC /* Lazy.swift */; };
 		E27BBA8027AD7DDA00A6B8EE /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BBA7F27AD7DDA00A6B8EE /* HealthKit.framework */; };
 		E27ED9732758A41B0099149C /* VirtualConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27ED9722758A41B0099149C /* VirtualConnection.swift */; };
@@ -149,7 +149,6 @@
 		E2E8DBEA2859F46D002C84FD /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26089A32748DCB500749025 /* Double.swift */; };
 		E2E8DBEB2859F46D002C84FD /* Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E278848227B4646E00E07DDC /* Lazy.swift */; };
 		E2E8DBEC2859F46D002C84FD /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FCAC2B270741D200FE1CBF /* Int.swift */; };
-		E2E8DBED2859F46D002C84FD /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27325A6275543D600D3C41D /* Color.swift */; };
 		E2E8DBEE2859F46D002C84FD /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FCAC2A270741D200FE1CBF /* UserDefaults.swift */; };
 		E2E8DBEF2859F46D002C84FD /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FCAC29270741D200FE1CBF /* Date.swift */; };
 		E2E8DBF02859F46D002C84FD /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FCAC28270741D200FE1CBF /* String.swift */; };
@@ -319,7 +318,6 @@
 		E2715803287ABF2E00B611D9 /* SensorGlucoseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorGlucoseListView.swift; sourceTree = "<group>"; };
 		E2715805287ABF4100B611D9 /* BloodGlucoseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodGlucoseListView.swift; sourceTree = "<group>"; };
 		E2715807287ABF4B00B611D9 /* SensorErrorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorErrorListView.swift; sourceTree = "<group>"; };
-		E27325A6275543D600D3C41D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		E278848227B4646E00E07DDC /* Lazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy.swift; sourceTree = "<group>"; };
 		E27BBA7F27AD7DDA00A6B8EE /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		E27BFC0226B1407E00F8FBEF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -799,7 +797,6 @@
 				E2FCAC2A270741D200FE1CBF /* UserDefaults.swift */,
 				E2FCAC2C270741D200FE1CBF /* View.swift */,
 				E26089A32748DCB500749025 /* Double.swift */,
-				E27325A6275543D600D3C41D /* Color.swift */,
 				E278848227B4646E00E07DDC /* Lazy.swift */,
 				E2BDE9CF290DF346004B8AB7 /* UIScreen.swift */,
 			);
@@ -1204,7 +1201,6 @@
 				E2FCAC1E270741BC00FE1CBF /* SensorConnectionState.swift in Sources */,
 				E2FCAC722707438A00FE1CBF /* DirectConfig.swift in Sources */,
 				E2C19FBC273568BF00B70A73 /* FactoryCalibration.swift in Sources */,
-				E27325A7275543D600D3C41D /* Color.swift in Sources */,
 				DA01000128000007000A0007 /* AmberTheme.swift in Sources */,
 				DA01000128000008000A0008 /* DOSTypography.swift in Sources */,
 				DA01000128000009000A0009 /* DOSSpacing.swift in Sources */,
@@ -1280,7 +1276,6 @@
 				E2016FDC285BA82600079195 /* TransmitterWidget.swift in Sources */,
 				E2E8DBFA2859F479002C84FD /* SensorReading.swift in Sources */,
 				E2E8DBFB2859F479002C84FD /* Sensor.swift in Sources */,
-				E2E8DBED2859F46D002C84FD /* Color.swift in Sources */,
 				DA0100012800000C000A000C /* AmberTheme.swift in Sources */,
 				DA0100012800000D000A000D /* DOSTypography.swift in Sources */,
 				DA0100012800000E000A000E /* DOSSpacing.swift in Sources */,

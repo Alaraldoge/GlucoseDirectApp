@@ -1,7 +1,7 @@
 ---
 title: "Refactor: Adopt eiDotter Design System Across All Views"
 type: refactor
-status: active
+status: completed
 date: 2026-03-08
 deepened: 2026-03-08
 ---
@@ -361,54 +361,54 @@ Need user input on the exact button pattern from Spacewar Apple TV / eiDotter:
 ### Phase 2: Migration (all views + widgets)
 
 **Shared Views (4 files):**
-- [ ] `ToggleView` -- AmberTheme colors, DOSTypography fonts
-- [ ] `NumberSelectorView` -- amber +/- buttons, DOSTypography, replace `Color.primary`
-- [ ] `DateSelectorView` -- DOS styling
-- [ ] `CollapsableSection` -- amber chevron, DOSTypography header, ">" prefix
+- [x] `ToggleView` -- AmberTheme colors, DOSTypography fonts
+- [x] `NumberSelectorView` -- amber +/- buttons, DOSTypography, replace `Color.primary`
+- [x] `DateSelectorView` -- DOS styling
+- [x] `CollapsableSection` -- amber chevron, DOSTypography header, ">" prefix
 
 **Settings Views (9 files):**
-- [ ] All settings views use `AmberTheme.*` colors and `DOSTypography` fonts
-- [ ] Section headers in amber monospace with ">" prefix
-- [ ] Text fields use `.dosTextField()` modifier
-- [ ] Form controls tinted amber (`.tint(AmberTheme.amber)`)
+- [x] All settings views use `AmberTheme.*` colors and `DOSTypography` fonts
+- [x] Section headers in amber monospace with ">" prefix
+- [x] Text fields use `.dosTextField()` modifier
+- [x] Form controls tinted amber (`.tint(AmberTheme.amber)`)
 
 **List Views (5 files):**
-- [ ] Statistics, glucose lists, insulin, errors use DOSTypography
-- [ ] List backgrounds set to black (`.listStyle(.plain)` or `.scrollContentBackground(.hidden)`)
-- [ ] Data values use `.dosText()` (**not** `.dosData()` -- no shadows in lists)
+- [x] Statistics, glucose lists, insulin, errors use DOSTypography
+- [x] List backgrounds set to black (`.listStyle(.plain)` or `.scrollContentBackground(.hidden)`)
+- [x] Data values use `.dosText()` (**not** `.dosData()` -- no shadows in lists)
 
 **Overview non-chart (4 files):**
-- [ ] `GlucoseView` -- glucose reading in `glucoseHero` monospace with large glow, `AmberTheme.amber` (not `Color.primary`), warning badge: `dosBlack` on `cgaRed`, sharp corners, red glow
-- [ ] `ConnectionView` -- `DOSButtonStyle` for connect/disconnect/pair
-- [ ] `SensorView` -- amber progress bars, DOSTypography for details
-- [ ] `SnoozeView` -- DOS styling
+- [x] `GlucoseView` -- glucose reading in `glucoseHero` monospace with large glow, `AmberTheme.amber` (not `Color.primary`), warning badge: `dosBlack` on `cgaRed`, sharp corners, red glow
+- [x] `ConnectionView` -- `DOSButtonStyle` for connect/disconnect/pair
+- [x] `SensorView` -- amber progress bars, DOSTypography for details
+- [x] `SnoozeView` -- DOS styling
 
 **Charts (2 files, highest risk):**
-- [ ] `ChartView` (iOS 16+) -- all `Color.ui.*` migrated to `AmberTheme.*`, **no shadows** inside `Chart {}` body
-- [ ] `ChartViewCompatibility` -- all hardcoded sRGB values replaced, `|` operator updated
-- [ ] Chart tooltip text: `AmberTheme.dosBlack` on colored backgrounds
-- [ ] Chart axes/grid: `AmberTheme.amberMuted`
+- [x] `ChartView` (iOS 16+) -- all `Color.ui.*` migrated to `AmberTheme.*`, **no shadows** inside `Chart {}` body
+- [x] `ChartViewCompatibility` -- all hardcoded sRGB values replaced, `|` operator updated
+- [x] Chart tooltip text: `AmberTheme.dosBlack` on colored backgrounds
+- [x] Chart axes/grid: `AmberTheme.amberMuted`
 
 **Container Views + LoadingView (4 files):**
-- [ ] `ContentView` tab bar: `amberDark` inactive, `amber` active
-- [ ] `OverviewView`, `ListsView`, `CalibrationsView` -- black backgrounds
-- [ ] `LoadingView` -- CRT power-on animation, blinking cursor, remove UIColor/ProgressView
+- [x] `ContentView` tab bar: `amberDark` inactive, `amber` active
+- [x] `OverviewView`, `ListsView`, `CalibrationsView` -- black backgrounds
+- [x] `LoadingView` -- CRT power-on animation, blinking cursor, remove UIColor/ProgressView
 
 **Widgets (4 files):**
-- [ ] All widget `Color.ui.*` migrated to `AmberTheme.*`
-- [ ] `Color.primary` in `GlucoseActivityWidget` migrated to `AmberTheme.amber`
-- [ ] Dynamic Island: keep proportional font in compact regions
-- [ ] Lock Screen widgets verified (accept system tinting)
-- [ ] Verify Widget scheme builds after migration
+- [x] All widget `Color.ui.*` migrated to `AmberTheme.*`
+- [x] `Color.primary` in `GlucoseActivityWidget` migrated to `AmberTheme.amber`
+- [x] Dynamic Island: keep proportional font in compact regions
+- [x] Lock Screen widgets verified (accept system tinting)
+- [x] Verify Widget scheme builds after migration
 
 ### Phase 3: Cleanup
 
-- [ ] Delete `Library/Extensions/Color.swift` (`Color.ui` extension)
-- [ ] Remove orphaned Asset Catalog color sets
-- [ ] Reconcile `docs/design-system.md` with actual code values
-- [ ] Audit: zero `Color.ui`, `Color.primary`, `Color.white` foreground references remain
+- [x] Delete `Library/Extensions/Color.swift` (`Color.ui` extension)
+- [x] Remove orphaned Asset Catalog color sets
+- [x] Reconcile `docs/design-system.md` with actual code values
+- [x] Audit: zero `Color.ui`, `Color.primary`, `Color.white` foreground references remain
 - [ ] Audit: zero system proportional fonts in views
-- [ ] Final Widget build verification
+- [x] Final Widget build verification
 
 ## Success Metrics
 
