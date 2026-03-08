@@ -9,6 +9,8 @@ import SwiftUI
 
 /// DOS/CGA terminal button style with sharp corners and amber palette
 struct DOSButtonStyle: ButtonStyle {
+    @Environment(\.isEnabled) private var isEnabled
+
     enum Variant {
         case primary
         case ghost
@@ -19,17 +21,31 @@ struct DOSButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(DOSTypography.button)
-            .foregroundColor(variant == .primary ? AmberTheme.dosBlack : AmberTheme.amber)
+            .foregroundColor(foregroundColor(configuration))
             .padding(.horizontal, DOSSpacing.md)
             .padding(.vertical, DOSSpacing.xs)
-            .background(
-                variant == .primary
-                    ? (configuration.isPressed ? AmberTheme.amberPressed : AmberTheme.amber)
-                    : (configuration.isPressed ? AmberTheme.amber.opacity(0.1) : Color.clear)
-            )
-            .overlay(Rectangle().stroke(AmberTheme.amber, lineWidth: 1))
+            .background(backgroundColor(configuration))
+            .overlay(Rectangle().stroke(isEnabled ? AmberTheme.amber : AmberTheme.amberMuted, lineWidth: 1))
             .scaleEffect(configuration.isPressed ? 0.97 : 1.0)
             .animation(.spring(response: 0.2, dampingFraction: 0.9), value: configuration.isPressed)
+    }
+
+    private func foregroundColor(_ configuration: Configuration) -> Color {
+        if !isEnabled { return AmberTheme.amberMuted }
+        if variant == .primary {
+            return AmberTheme.dosBlack
+        }
+        return configuration.isPressed ? AmberTheme.amberLight : AmberTheme.amber
+    }
+
+    private func backgroundColor(_ configuration: Configuration) -> Color {
+        if !isEnabled {
+            return variant == .primary ? AmberTheme.amberMuted.opacity(0.3) : Color.clear
+        }
+        if variant == .primary {
+            return configuration.isPressed ? AmberTheme.amberPressed : AmberTheme.amber
+        }
+        return configuration.isPressed ? AmberTheme.amber.opacity(0.1) : Color.clear
     }
 }
 

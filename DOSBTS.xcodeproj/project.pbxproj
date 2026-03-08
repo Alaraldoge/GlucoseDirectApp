@@ -208,7 +208,6 @@
 		DA01000128000008000A0008 /* DOSTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA01000128000003000A0003 /* DOSTypography.swift */; };
 		DA01000128000009000A0009 /* DOSSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA01000128000004000A0004 /* DOSSpacing.swift */; };
 		DA0100012800000A000A000A /* DOSButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA01000128000005000A0005 /* DOSButtonStyle.swift */; };
-		DA0100012800000B000A000B /* DOSModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA01000128000006000A0006 /* DOSModifiers.swift */; };
 		DA0100012800000C000A000C /* AmberTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA01000128000002000A0002 /* AmberTheme.swift */; };
 		DA0100012800000D000A000D /* DOSTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA01000128000003000A0003 /* DOSTypography.swift */; };
 		DA0100012800000E000A000E /* DOSSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA01000128000004000A0004 /* DOSSpacing.swift */; };
@@ -450,7 +449,6 @@
 		DA01000128000003000A0003 /* DOSTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOSTypography.swift; sourceTree = "<group>"; };
 		DA01000128000004000A0004 /* DOSSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOSSpacing.swift; sourceTree = "<group>"; };
 		DA01000128000005000A0005 /* DOSButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOSButtonStyle.swift; sourceTree = "<group>"; };
-		DA01000128000006000A0006 /* DOSModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOSModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -942,7 +940,6 @@
 		DA01000128000011000A0011 /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
-				DA01000128000006000A0006 /* DOSModifiers.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -1205,7 +1202,6 @@
 				DA01000128000008000A0008 /* DOSTypography.swift in Sources */,
 				DA01000128000009000A0009 /* DOSSpacing.swift in Sources */,
 				DA0100012800000A000A000A /* DOSButtonStyle.swift in Sources */,
-				DA0100012800000B000A000B /* DOSModifiers.swift in Sources */,
 				E294333E2878805A005C8A69 /* DataStore.swift in Sources */,
 				E2591C5D28740EBB0009F27C /* BellmanConnectionState.swift in Sources */,
 				E2C19FB3273567FE00B70A73 /* SensorReading.swift in Sources */,
